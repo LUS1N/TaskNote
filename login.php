@@ -3,7 +3,6 @@ require("includes/config.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "GET")
 {
-    // else render form
     render("login_form.php", ["title" => "Log In"]);
 }
 else if ($_SERVER["REQUEST_METHOD"] == "POST")
