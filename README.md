@@ -16,4 +16,6 @@ CRUD app for notes in PHP, using Propel ORM, AJAX, and Mustache.js for PHP and J
 9. `vendor/bin/propel sql:insert`
 
 
-Note: on windows comman line replace `/` to `\`.
+# Notes: 
+  1. on windows comman line replace `/` to `\`.
+  2. if composer is not installed, download composer.phar to the project directory from https://getcomposer.org/download/
