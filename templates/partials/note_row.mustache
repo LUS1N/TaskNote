@@ -1,0 +1,29 @@
+    <!--show note-->
+    <div class="row" id="row_{{ID}}">
+
+      <div class="showNote col-md-7">
+        <h3>{{TITLE}}</h3>
+        <p>
+          {{CONTENT}}
+        </p>
+        <a id="{{ID}}" class="btn btn-danger remove_button" href="#">Delete</a>
+        <a class="btn btn-primary editButton" href="">Edit</a>
+      </div>
+
+      <!--edit note-->
+      <div class="col-md-7 editNote" style="display:none">
+      </br>
+        <form class="editNoteForm">
+          <fieldset class="form-group">
+            <input type="text" class="form-control" name="title" value="{{TITLE}}">
+          </fieldset>
+          <fieldset class="form-group">
+            <textarea class="form-control" rows="3" name="content">{{CONTENT}}</textarea>
+          </fieldset>
+          <button type="submit" class="btn btn-primary submitEdit">Submit edit</button>
+          <a class="btn btn-danger cancelEdit">Cancel</a>
+          <input type="hidden" name="action" value="edit" />
+          <input type="hidden" name="id" value="{{ID}}" />
+        </form>
+      </div>
+    </div>

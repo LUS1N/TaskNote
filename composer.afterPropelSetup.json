@@ -1,0 +1,11 @@
+{
+    "require": {
+        "propel/propel": "~2.0@dev",
+          "mustache/mustache": "2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "generated-classes/"
+        ]
+    }
+}

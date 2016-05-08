@@ -1,0 +1,29 @@
+Task
+
+Description:
+Create a simple system where people can create an account which will have to be used to log in into the system where the user will be able to post notes to himself and see the previous ones.
+
+Available languages and tools to use:
+PHP
+MySQL
+jQuery
+
+Pages to be created:
+register.php - a simple page with 2 fields (username & password) and a 'register' button that once clicked registers the user and redirects to login page
+login.php - a simple page with 2 fields (username & password) and a 'login' button that once clicked validates the input and redirects to account page
+account.php - a page which has a text area for the user to input some text, a 'post' and a list of previously posted notes.
+
+Addition notes:
+Once the user lands to account.php there should not be any more page refreshes/reloads. The 'posting' of new notes should not make the page refresh and the freshly posted note should get inserted into the correct place within DOM without the page refresh.
+All the data (account details, notes, etc) has to be stored in a database. The system should not be tied to only a single user. Every user should be able see only their own notes.
+
+Things we care about:
+We want to see if you can solve & create custom solutions by yourself by figuring out the methods that have to be incorporated to achieve the needed results for the task. Please note that we pay attention to how well structured & secure the code & database is. It is up to you to figure out the best way to achieve this.
+
+Timeframe:
+This task should take from 1 to 3 hours depending on the choices you make.
+
+Extra:
+3 reference images showing how the pages should look (does not have to be identical, but a same layout is preferred)
+
+Once the task is finished please send us the source files (*.php, *.sql, *.js, *.css)
