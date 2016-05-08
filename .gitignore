@@ -1,0 +1,8 @@
+/generated-classes
+/generated-conf
+/generated-sql
+/vendor
+/.vscode
+composer.lock
+/.git
+task.txt
