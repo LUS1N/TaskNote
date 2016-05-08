@@ -14,3 +14,6 @@ CRUD app for notes in PHP, using Propel ORM, AJAX, and Mustache.js for PHP and J
 7. `vendor/bin/propel config:convert`
 8. Create a database with your database managing tool with the same name as DATABASE in includes/constants.php
 9. `vendor/bin/propel sql:insert`
+
+
+Note: on windows comman line replace `/` to `\`.
