@@ -27,7 +27,7 @@ function editNote($id)
     $note = NoteQuery::create()->findPK($id);
     $note->setTitle($_POST["title"]);
     $note->setContent($_POST["content"]);
-    
+    $note->save();
     echoJson($note);
 }
 

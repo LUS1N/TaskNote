@@ -15,6 +15,13 @@ if (!inPaths(["/login.php","/register.php"]))
     {
         redirect("login.php");
     }
+    else
+    {
+        if(inPaths(["index.php"]))
+        {
+            redirect("account.php");
+        }
+    }
 }
 
 function inPaths($paths)
