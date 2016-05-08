@@ -17,5 +17,5 @@ CRUD app for notes in PHP, using Propel ORM, AJAX, and Mustache.js for PHP and J
 
 
 # Notes: 
-  1. on windows comman line replace `/` to `\`.
+  1. on windows command line replace `/` to `\`.
   2. if composer is not installed, download composer.phar to the project directory from https://getcomposer.org/download/
